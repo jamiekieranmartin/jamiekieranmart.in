@@ -7,14 +7,14 @@ const Component: NextPage = () => (
     <div className="max-w-screen-lg mx-auto grid grid-cols-1 lg:grid-cols-2 place-items-center gap-8 lg:gap-16">
       <Image
         className="max-w-sm mx-auto w-full"
-        src="/icon.svg"
+        src="icon.svg"
         width={350}
         height={350}
         alt="work together"
       />
       <div className="grid place-items-start text-blue px-4">
         <h1 className="text-6xl mb-6 font-bold">Let&apos;s work together.</h1>
-        <p className="my-0 text-3xl">Get in touch below.</p>
+        <p className="mb-4 text-3xl">Get in touch below.</p>
       </div>
     </div>
 

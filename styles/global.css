@@ -6,30 +6,30 @@
 @tailwind utilities;
 
 #hs-form-iframe-0 {
-	height: 425px !important;
+  height: 425px !important;
 }
 
 @layer base {
-	p,
-	li {
-		@apply font-body font-light;
-	}
+  p,
+  li {
+    @apply font-body font-light;
+  }
 
-	h1,
-	h2,
-	h3,
-	h4,
-	h5,
-	h6 {
-		@apply font-display;
-	}
-	mark {
-		@apply bg-green text-blue;
-	}
-	a {
-		@apply font-bold;
-	}
-	strong {
-		@apply text-blue;
-	}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-display;
+  }
+  mark {
+    @apply bg-green text-blue;
+  }
+  a {
+    @apply font-bold;
+  }
+  strong {
+    @apply text-blue;
+  }
 }
