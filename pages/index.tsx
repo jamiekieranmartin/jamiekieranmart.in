@@ -4,10 +4,10 @@ import Image from "next/image";
 
 const Component: NextPage = () => (
   <section className="w-full">
-    <div className="max-w-screen-lg mx-auto grid grid-cols-1 lg:grid-cols-2 place-items-center gap-8 lg:gap-16">
+    <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row justify-center place-items-center gap-8 lg:gap-16">
       <Image
         className="max-w-sm mx-auto w-full"
-        src="icon.svg"
+        src="/icon.svg"
         width={350}
         height={350}
         alt="work together"
