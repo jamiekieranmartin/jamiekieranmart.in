@@ -12,7 +12,7 @@ const Component: NextPage = () => (
         height={350}
         alt="work together"
       />
-      <div className="grid place-items-start text-blue">
+      <div className="grid place-items-start text-blue px-4">
         <h1 className="text-6xl mb-6 font-bold">Let&apos;s work together.</h1>
         <p className="my-0 text-3xl">Get in touch below.</p>
       </div>
